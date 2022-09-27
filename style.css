@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,600&display=swap');
+
+body{
+  background-color: #FFFDD0;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  background-color: grey;
+}
+
+li {
+  float: right;
+}
+
+.left{
+  float:left;
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  text-decoration: underline;
+  font-size: 30px;
+
+}
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 18px;
+  text-decoration: underline;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+#foodcrisis{
+  width: 100%;
+  height: 500px;
+}
+
+#block1{
+  padding: 5px;
+  width: 23%;
+  height: 75%;
+  position: absolute;
+  top: auto;
+  left: 0;
+  background-color: white;
+
+}
+#block2{
+  padding: 5px;
+  width: 23%;
+  height: 75%;
+  position: absolute;
+  top: auto;
+  left: 25%;
+  /* background: blue; */
+}
+#block3{
+  padding: 5px;
+  width: 23%;
+  height:75%;
+  position: absolute;
+  top:auto;
+  left:50%;
+  background: white;
+}
+#block4{
+  padding: 5px;
+  width: 25%;
+  height: 75%;
+  position: absolute;
+  top:auto;
+  left:75%;
+  /* background: pink; */
+}
+
+#para{
+  line-height: 2.5;
+  font-size: 18px;
+}
+
+#crisis1, #crisis2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  position: relative;
+  left: -25px;
+}
+
+#crisis3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 72.5px;
+  width: 80%;
+  position: relative;
+  left: -25px;
+}
+
+.crisis1, .crisis2, .crisis3{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 19px;
+  line-height: 2;
+}
+
+
+.twoColumnContainer {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+
+.oneColumn {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    padding: 5px;
+    width: 49%;
+  }
+
+.rectangle{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+
+.twocolumn{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 49%;
+}
+
+.case1{
+    padding: 5px;
+    width: 48%;
+    height: 48%;
+    position: absolute;
+    top: 70px;
+    left: 1%;
+}
+
+#ukraine{
+  width: 88%;
+  height: 98%;
+  position: absolute;
+  top: auto;
+  left: 5.5%;
+}
+
+.case2{
+
+    padding: 5px;
+    width: 48%;
+    height: 48%;
+    position: absolute;
+    top: 70px;
+    left: 50.5%;
+    background-color: white;
+}
+
+.case3{
+    padding: 5px;
+    width: 48%;
+    height: 48%;
+    position: absolute;
+    top: 456px;
+    left: 1%;
+    background-color: white;
+}
+
+.case4{
+    padding: 5px;
+    width: 48%;
+    height: 48%;
+    position: absolute;
+    top: 456px;
+    left: 50.5%;
+}
+
+#pakistan{
+  width: 88%;
+  height: 98%;
+  position: absolute;
+  top: auto;
+  left: 6.5%;
+}
+
+#ukrainecrisis{
+  line-height: 2.1;
+  font-size: 18px;
+}
+
+#pakistancrisis{
+  line-height: 2.1;
+  font-size: 18px;
+}
